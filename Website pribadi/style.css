@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #364F6B;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit ;
+
+}
+header h1{
+   
+    float: left;
+    padding: 15px 0;
+    color: #364F6B;
+}
+header ul{
+    
+    float: right ;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #364F6B;
+    color: #fff;
+
+}
+.banner{
+    height: 60vh;
+    background-image: url('videogamer-player-raising-hands-after-winning-first-person-shooter-competition-wearing-hradphones-professional-pro-gamer-playing-online-video-games-with-new-graphics-powerful-computer.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after{
+    content:'' ;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(54, 79, 107, .6); 
+}
+section{
+    padding: 50px 0;
+}
+.banner h2{
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border:3px solid white ;
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #364f6b;
+    margin-bottom: 20px;
+}
+.about p{
+    color:  #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.contact{
+    background-color: #f9f9f9;
+text-align: center;
+}
+.banner h2:hover{
+    background-color: #fff;
+    color: #364f6b;
+}
+.active{
+    background-color:#364F6B ;
+    color: #fff;
+}
+footer{
+    padding: 30px ;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.contact small{
+    text-align: center;
+}
+.blog{
+    background:#D4ECDD;
+}
+.title{
+    font-family: "Montserrat",sans-serif;
+    font-size: 220%;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+.blog{
+    padding-top:200px;
+    padding-bottom: 200px;
+}
+.blog-item {
+   display:flex;
+   padding: 15px;
+  justify-content: center;
+}
+.blog-text{
+    font-family: "Montserrat",sans-serif;
+    padding-left: 15px;
+
+}
+.blog-text span{
+    font-weight: 400;
+    font-size:12px;
+}
+.blog-text span ,h2{
+    padding-bottom: 10px;
+}
+.blog-text p{
+    padding-bottom: 50px;
+}
+.blog-text a{
+    background-color: #1B1464;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px;
+}
+.footer{
+    display:flex;
+    background-color:#1B1464;
+    justify-content: space-evenly;
+    padding: 100px;
+}
